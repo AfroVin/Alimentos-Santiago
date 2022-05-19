@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <!-- JQuery -->
+   <!-- incorporamos las jquey y validadores -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script language="javascript" type="text/javascript"
+       src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.10.0/jquery.validate.min.js"></script>
+   <script language="javascript" type="text/javascript"
+       src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/additional-methods.min.js"></script>
+
+    <title>El comilon</title>
+</head>
+
+<body>
+    <div class="header1">
+        <div class="header">
+            <div style="margin-left: 790px;">
+                <a href="../index.html"><img class="img" src="../img/Alimentos Santiago.jpg" alt="LOGO Elcomilon"></a>
+            </div>
+            <div style="margin-left: 790px ;">
+            <h1>LOGIN</h1>
+        </div>
+            <div class="container2">
+                <div class="container1">
+    <form method="POST" id="formulario_usuario" action="#">
+            <div class="form-group">
+                <div class="left-label">
+                <label for="nombreuser">Nombre</label>
+            </div>
+                <input type="text" name="u_nombre" id="nombreuser" class="form-control required"
+                    placeholder="Ingrese su nombre">
+            </div>
+            <div class="form-group">
+                <div class="form-group">
+                    <div class="left-label">
+                    <label for="apellidouser">Apellido</label>
+                </div>
+                <input type="text" name="u_apellido" id="apellidouser" class="form-control required"
+                    placeholder="Ingrese su apellido">
+            </div>
+            <div class="form-group">
+                <div class="form-group">
+                    <div class="left-label">
+                    <label for="passuser">Contraseña</label>
+                </div>
+                <input type="password" name="u_contraseña" id="passuser" class="form-control required"
+                    placeholder="Ingrese su contraseña">
+            </div>
+            <button type="button" class="btn btn-primary" id="btn-registrar" onclick="registrar()">ingresar</button>
+    </form>
+</div>
+</div>
+
+    <script src="../js/login.js"></script>
+</body>
+</html>
