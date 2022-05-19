@@ -1,0 +1,28 @@
+.container2{
+	width: 600px;
+	height:500px;
+	margin-left: 650px;
+    border-style: solid;
+    border-color: red;
+    display: inline-block;
+}
+.container1{
+	width: 500px;
+	height:400px;
+	margin-left:90px;
+    margin-right:90px;
+    margin-bottom:90px;
+    margin-top:90px;
+    display: inline-block;
+}
+.img{
+    width: 300px;
+    height: 300px;
+}
+.left_label{
+    width: 200px;
+    display: inline-block;
+    vertical-align: text-top;
+    margin-top: 10px;   
+    margin-left: 10px;
+}
