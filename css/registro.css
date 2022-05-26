@@ -1,3 +1,18 @@
+body {
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+	font-weight:300;
+	font-size: 12px;
+	line-height:30px;
+    background-color:cornflowerblue;
+}
+header{
+    font-weight: bold;
+    font-size: 15px;
+}
+.carrito{
+    background-color: aliceblue;
+	height:300px;
+}
 .container2{
 	width: 600px;
 	height:500px;
@@ -18,6 +33,34 @@
 .img{
     width: 300px;
     height: 300px;
+}
+.img2{
+    width: 200px;
+    height: 200px;
+    margin-left: 0%;
+}
+.container_perfil{
+    border-radius: 10px;
+    height: 400px;
+    /* border: 5px black solid; */
+}
+.datos{
+    font-size: medium;
+    width: 400px;
+    height: 250px;
+    /* border: 5px red dashed; */
+    float: left;
+}
+.datos2{
+    width: 250px;
+    height: 250px;
+    /* border: 5px blue dashed; */
+    float: left;
+}
+.foto_perfil{
+    width: 200px;
+    height: 200px;
+    margin: 0;
 }
 .left_label{
     width: 200px;
