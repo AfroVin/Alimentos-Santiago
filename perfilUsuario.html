@@ -15,7 +15,7 @@
 
   <body>
     <img class="img2" src="./img/Alimentos Santiago.png" alt="Logo" />
-    <header style="background-color: rgb(52, 160, 52);">
+    <header>
       <ul
         style="margin-top: 10px;"
         class="nav justify-content-center border-bottom pb-3 mb-3"
@@ -31,53 +31,64 @@
         </li>
       </ul>
     </header>
-    <!-- Datos perfil -->
-    <div class="container_perfil">
-      <h1>Datos del usuario</h1>
-      <br />
-      <div class="datos2">
-        <img class="foto_perfil" src="./img/perfil.png" alt="Foto Perfil" />
-        <h6 style="margin-left: 50px; margin-top: 10px;">Saldo: $xx.xxx</h6>
+    <div class="datos3">
+      <!-- Datos perfil -->
+      <div class="container_perfil">
+        <h1 style="margin-left: 30px; margin-top:20px;">Datos del usuario</h1>
+        <br />
+        <div class="datos2">
+          <img class="foto_perfil" src="./img/perfil.png" alt="Foto Perfil" />
+          <h6 style="margin-left: 40px; margin-top: 10px;">Saldo: $xx.xxx</h6>
+        </div>
+        <div class="datos">
+          <ul style="margin-top: 50px; margin-bottom: 50px;">
+            <li>Nombre:</li>
+            <li>Fecha de nacimiento:</li>
+            <li>Empresa:</li>
+            <li>Direccion:</li>
+          </ul>
+          <button><a href="./paginaModificar.html">Modificar Datos</a></button>
+        </div>
       </div>
-      <div class="datos">
-        <ul style="margin-top: 50px; margin-bottom: 50px;">
-          <li>Nombre:</li>
-          <li>Fecha de nacimiento:</li>
-          <li>Empresa:</li>
-          <li>Direccion:</li>
-        </ul>
-      </div>
-    </div>
-    <!-- Fin datos perfil -->
+      <!-- Fin datos perfil -->
 
-    <!-- Carrito de compras -->
-    <div class="carrito">
-        <div style="margin-top: 60px;" class="section section-margin">
-        <div class="container">
-            <div class="row">
-            <div class="col-12">
-                <!-- Cart Table Start -->
-                <div class="cart-table table-responsive">
-                <table class="table table-bordered">
-                    <!-- Table Head Start -->
-                    <thead>
-                    <tr>
-                        <th class="pro-thumbnail">#Numero</th>
-                        <th class="pro-title">Fecha</th>
-                        <th class="pro-price">Nombre del plato</th>
-                        <th class="pro-remove">Monto total</th>
-                        <th class="pro-remove">Estado actual</th>
-                        <th class="pro-remove">Detalle</th>
-                        <th class="pro-remove">Cambiar estado</th>
-                    </tr>
-                    </thead>
-                    <!-- Table Head End -->
+      <!-- Carrito de compras -->
+      <div class="carrito">
+          <div class="section section-margin">
+          <div class="container">
+              <div class="row">
+              <div class="col-12">
+                  <!-- Cart Table Start -->
+                  <div class="cart-table table-responsive">
+                  <table class="table table-bordered">
+                      <!-- Table Head Start -->
+                      <thead>
+                        <label for="">Menu</label>
+                      <tr>
+                          <th class="pro-thumbnail">#Numero</th>
+                          <th class="pro-price">Nombre del plato</th>
+                          <th class="pro-remove">Monto total</th>
+                          <th class="pro-remove">Estado actual</th>
+                          <th class="pro-remove">Detalle</th>
+                      </tr>
+                      </thead>
+                      <!-- Table Head End -->
 
-                    <!-- Table Body Start -->
-                    <tbody>
-                    <tr>
+                      <!-- Table Body Start -->
+                      <tbody>
+                      <tr>
+                          <td class="pro-thumbnail"><a href="#">425</a></td>
+                          <th class="pro-remove">Camaron Apanado</th>
+                          <td class="pro-price"><span>$15.000</span></td>
+                          <th class="pro-remove">Entregado</th>
+                          <td>
+                          <a href="seguimientodespacho.html" class="pro-remove">
+                              Ver detalles
+                          </a>
+                          </td>
+                      </tr>
+                      <tr>
                         <td class="pro-thumbnail"><a href="#">425</a></td>
-                        <td class="pro-title"><a href="#">1/1/2022</a></td>
                         <th class="pro-remove">Camaron Apanado</th>
                         <td class="pro-price"><span>$15.000</span></td>
                         <th class="pro-remove">Entregado</th>
@@ -86,57 +97,109 @@
                             Ver detalles
                         </a>
                         </td>
-                        <td>
-                        <a href="#" class="pro-remove">Despachado</a>
-                        <a href="#">Entregado</a>
-                        </td>
                     </tr>
                     <tr>
-                        <td class="pro-thumbnail"><a href="#">535</a></td>
-                        <td class="pro-title"><a href="#">5/2/2022</a></td>
-                        <th class="pro-remove">Ceviche</th>
-                        <td class="pro-price"><span>$10.000</span></td>
-                        <th class="pro-remove">Despachado</th>
-                        <td>
-                        <a href="seguimientodespacho.html" class="pro-remove">
-                            Ver detalles
-                        </a>
-                        </td>
-                        <td>
-                        <a href="#" class="pro-remove">Despachado</a>
-                        <a href="#">Entregado</a>
-                        </td>
-                    </tr>
-                    <td class="pro-thumbnail"><a href="#">675</a></td>
-                    <td class="pro-title"><a href="#">7/3/2022</a></td>
-                    <th class="pro-remove">Chorrillana</th>
-                    <td class="pro-price"><span>$12.000</span></td>
-                    <th class="pro-remove">En bodega</th>
+                      <td class="pro-thumbnail"><a href="#">425</a></td>
+                      <th class="pro-remove">Camaron Apanado</th>
+                      <td class="pro-price"><span>$15.000</span></td>
+                      <th class="pro-remove">Entregado</th>
+                      <td>
+                      <a href="seguimientodespacho.html" class="pro-remove">
+                          Ver detalles
+                      </a>
+                      </td>
+                  </tr>
+                  <tr>
+                    <td class="pro-thumbnail"><a href="#">425</a></td>
+                    <th class="pro-remove">Camaron Apanado</th>
+                    <td class="pro-price"><span>$15.000</span></td>
+                    <th class="pro-remove">Entregado</th>
                     <td>
-                        <a href="seguimientodespacho.html" class="pro-remove">
+                    <a href="seguimientodespacho.html" class="pro-remove">
                         Ver detalles
-                        </a>
+                    </a>
                     </td>
-                    <td>
-                        <a href="#" class="pro-remove">Despachado</a>
-                        <a href="#">Entregado</a>
-                    </td>
+                </tr>
+                      </tbody>
+                      <!-- Table Body End -->
+                  </table>
+                  </div>
+              </div>
+              </div>
+          </div>
+          </div>
+      </div>
+      <!-- Fin carrito  -->
+    </div>
+      <br>
+      <!-- Carrito de compras -->
+      <div class="menu">
+        <div class="section section-margin">
+        <div class="container">
+            <div class="row">
+            <div class="col-12">
+                <!-- Cart Table Start -->
+                <div class="cart-table table-responsive">
+                <table class="table table-bordered">
+                    <!-- Table Head Start -->
+                    <thead>
+                      <label for="">Historial de compras</label>
                     <tr>
-                        <td class="pro-thumbnail"><a href="#">734</a></td>
-                        <td class="pro-title"><a href="#">2/4/2022</a></td>
-                        <th class="pro-remove">Ensalada cesar</th>
-                        <td class="pro-price"><span>$7.000</span></td>
+                        <th class="pro-thumbnail">#Numero</th>
+                        <th class="pro-price">Nombre del plato</th>
+                        <th class="pro-remove">Monto total</th>
+                        <th class="pro-remove">Estado del pedido</th>
+                        <th class="pro-remove">Detalle</th>
+                    </tr>
+                    </thead>
+                    <!-- Table Head End -->
+
+                    <!-- Table Body Start -->
+                    <tbody>
+                      <tr>
+                        <td class="pro-thumbnail"><a href="#">425</a></td>
+                        <th class="pro-remove">Camaron Apanado</th>
+                        <td class="pro-price"><span>$15.000</span></td>
                         <th class="pro-remove">Entregado</th>
                         <td>
                         <a href="seguimientodespacho.html" class="pro-remove">
                             Ver detalles
                         </a>
                         </td>
-                        <td>
-                        <a href="#" class="pro-remove">Despachado</a>
-                        <a href="#">Entregado</a>
-                        </td>
                     </tr>
+                    <tr>
+                      <td class="pro-thumbnail"><a href="#">425</a></td>
+                      <th class="pro-remove">Camaron Apanado</th>
+                      <td class="pro-price"><span>$15.000</span></td>
+                      <th class="pro-remove">Entregado</th>
+                      <td>
+                      <a href="seguimientodespacho.html" class="pro-remove">
+                          Ver detalles
+                      </a>
+                      </td>
+                  </tr>
+                  <tr>
+                    <td class="pro-thumbnail"><a href="#">425</a></td>
+                    <th class="pro-remove">Camaron Apanado</th>
+                    <td class="pro-price"><span>$15.000</span></td>
+                    <th class="pro-remove">Entregado</th>
+                    <td>
+                    <a href="seguimientodespacho.html" class="pro-remove">
+                        Ver detalles
+                    </a>
+                    </td>
+                </tr>
+                <tr>
+                  <td class="pro-thumbnail"><a href="#">425</a></td>
+                  <th class="pro-remove">Camaron Apanado</th>
+                  <td class="pro-price"><span>$15.000</span></td>
+                  <th class="pro-remove">Entregado</th>
+                  <td>
+                  <a href="seguimientodespacho.html" class="pro-remove">
+                      Ver detalles
+                  </a>
+                  </td>
+              </tr>
                     </tbody>
                     <!-- Table Body End -->
                 </table>
