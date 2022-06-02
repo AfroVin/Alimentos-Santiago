@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/registro.css" />
+    <!-- JQuery -->
+    <!-- incorporamos las jquey y validadores -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script
+      language="javascript"
+      type="text/javascript"
+      src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.10.0/jquery.validate.min.js"
+    ></script>
+    <script
+      language="javascript"
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/additional-methods.min.js"
+    ></script>
+
+    <title>Realizar Pedido</title>
+  </head>
+
+  <body>
+    <div class="header1">
+        <div style="margin-left: 790px;">
+          <img class="img" src="./img/Alimentos Santiago.png" alt="Logo" />
+        </div>
+      </div>
+    <div class="container2">
+      <div class="container1">
+        <form method="post" id="pedido" action="#">
+          <div class="form-group">
+            <div class="left_label">
+              <label for="entrada">Tipo de entrada:</label>
+            </div>
+            <select name="entrada" id="entrada">
+              <option value="1">Ninguno</option>
+              <option value="2">b</option>
+              <option value="3">b</option>
+            </select>
+            <br>
+            <label class="left_label" for="precio1">Precio: </label>
+            <input type="text" id="precio1" placeholder="0000" readonly />
+          </div>
+          <div class="form-group">
+            <div class="left_label">
+              <label for="plato">Plato principal:</label>
+            </div>
+            <select name="plato" id="plato">
+              <option value="1">Ninguno</option>
+              <option value="2">b</option>
+              <option value="3">b</option>
+            </select>
+            <br>
+            <label class="left_label" for="precio2">Precio: </label>
+            <input type="text" id="precio2" placeholder="0000" readonly />
+          </div>
+          <div class="form-group">
+            <div class="left_label">
+              <label for="ensalada">Ensalada:</label>
+            </div>
+            <select name="ensalada" id="ensalada">
+              <option value="1">Ninguno</option>
+              <option value="2">b</option>
+              <option value="3">b</option>
+            </select>
+            <br>
+            <label class="left_label" for="precio3">Precio: </label>
+            <input type="text" id="precio3" placeholder="0000" readonly />
+          </div>
+          <div class="form-group">
+            <div class="left_label">
+              <label for="postre">Postre:</label>
+            </div>
+            <select name="postre" id="postre">
+              <option value="1">Ninguno</option>
+              <option value="2">b</option>
+              <option value="3">b</option>
+            </select>
+            <br>
+            <label class="left_label" for="precio4">Precio: </label>
+            <input type="text" id="precio4" placeholder="0000" readonly />
+          </div>
+          <div class="form-group">
+            <label class="left_label" for="retiro">Retiro</label>
+            <div class="radiobtn">
+              <input type="radio" id="tipo" name="retiro" value="tipo" />
+
+              <label for="retiro">Domicilio</label>
+
+              <input type="radio" id="retiro" name="retiro" value="tipo" />
+
+              <label for="left_label">Local</label>
+            </div>
+          </div>
+          <label for="total">Total:</label>
+          <input type="text" placeholder="0000" readonly>
+        </form>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/usuario.js"></script>
+  </body>
+</html>

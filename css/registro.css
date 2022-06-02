@@ -15,7 +15,7 @@ header{
 }
 .container2{
 	width: 600px;
-	height:500px;
+	/* height:500px; */
 	margin-left: 650px;
     border-style: solid;
     border-color: red;
@@ -23,7 +23,7 @@ header{
 }
 .container1{
 	width: 500px;
-	height:400px;
+	/* height:400px; */
 	margin-left:90px;
     margin-right:90px;
     margin-bottom:90px;
@@ -65,7 +65,6 @@ header{
 .left_label{
     width: 200px;
     display: inline-block;
-    vertical-align: text-top;
     margin-top: 10px;   
     margin-left: 10px;
 }
