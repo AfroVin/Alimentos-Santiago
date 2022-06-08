@@ -2,28 +2,27 @@ body {
 	font-family:"Open Sans", Helvetica, Arial, sans-serif;
 	font-weight:300;
 	font-size: 12px;
-	line-height:30px;
     background-color:rgb(170, 98, 98);
+    text-align: center;
 }
 header{
     font-weight: bold;
     font-size: 15px;
 }
+footer{
+    font-size: 15px;
+
+}
 .container2{
-	width: 600px;
-	/* height:500px; */
-	margin-left: 650px;
-    border-style: solid;
-    border-color: red;
+    width: 800px;
+    text-align: center;
+    /* border-style: solid; */
+    /* border-color: red; */
     display: inline-block;
 }
 .container1{
 	width: 500px;
 	/* height:400px; */
-	margin-left:90px;
-    margin-right:90px;
-    margin-bottom:90px;
-    margin-top:90px;
     display: inline-block;
 }
 .img{
@@ -55,7 +54,6 @@ header{
 .menu{
     background-color: aliceblue;
     border-radius: 10px;
-    float: left;
     margin-top: 60px;
     margin-left: 60px;
     margin-bottom: 60px;
@@ -87,8 +85,14 @@ header{
     margin: 0;
 }
 .left_label{
-    width: 200px;
-    display: inline-block;
-    margin-top: 10px;   
-    margin-left: 10px;
+    float: left;
+    margin-top: 10px;  
+    margin-bottom: 10px; 
+    font-size: 15px;
+
+}
+.redes{
+    width: 30px;
+    height: 30px;
+
 }
