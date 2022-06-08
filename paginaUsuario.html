@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="../css/registro.css" />
     <!-- JQuery -->
     <!-- incorporamos las jquey y validadores -->
@@ -23,11 +29,34 @@
   </head>
 
   <body>
-    <div class="header1">
-      <div style="margin-left: 790px;">
-        <img class="img" src="./img/Alimentos Santiago.jpg" alt="Logo" />
+    <header>
+      <div class="header1">
+        <div>
+          <img class="img" src="./img/Alimentos Santiago.png" alt="Logo" />
+        </div>
       </div>
-    </div>
+      <ul
+        style="margin-top: 10px"
+        class="nav justify-content-center border-bottom pb-3 mb-3"
+      >
+        <li class="nav-item">
+          <a href="index.html" class="nav-link px-2 text-muted">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a href="paginaUsuario.html" class="nav-link px-2 text-muted"
+            >Login</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="index.html" class="nav-link px-2 text-muted">Menú</a>
+        </li>
+        <li class="nav-item">
+          <a href="./perfilUsuario.html" class="nav-link px-2 text-muted"
+            >Perfil</a
+          >
+        </li>
+      </ul>
+    </header>
     <div class="container2">
       <div class="container1">
         <form method="POST" id="formulario_usuario" action="#">
@@ -36,7 +65,7 @@
               <label for="nombreuser">Ingrese su nombre</label>
             </div>
             <input
-              style="margin-top: 10px;"
+              style="margin-top: 10px"
               type="text"
               name="u_nombre"
               id="nombreuser"
@@ -49,7 +78,7 @@
               <label for="apellidouser">Ingrese su apellido</label>
             </div>
             <input
-              style="margin-top: 10px;"
+              style="margin-top: 10px"
               type="text"
               name="u_apellido"
               id="apellidouser"
@@ -62,7 +91,7 @@
               <label for="emailuser">Ingrese su email</label>
             </div>
             <input
-              style="margin-top: 10px;"
+              style="margin-top: 10px"
               type="email"
               name="u_email"
               id="emailuser"
@@ -75,7 +104,7 @@
               <label for="direccion">Ingrese su dirección</label>
             </div>
             <input
-              style="margin-top: 10px;"
+              style="margin-top: 10px"
               type="email"
               name="u_email"
               id="direccion"
@@ -88,7 +117,7 @@
               <label for="fechauser">Ingrese la fecha de nacimiento</label>
             </div>
             <input
-              style="margin-top: 10px;"
+              style="margin-top: 10px"
               type="date"
               name="u_fecha"
               id="fechauser"
@@ -100,7 +129,7 @@
               <label for="passuser">Ingrese su contraseña</label>
             </div>
             <input
-              style="margin-top: 10px;"
+              style="margin-top: 10px"
               type="password"
               name="u_contraseña"
               id="passuser"
@@ -113,7 +142,7 @@
               <label for="fechauser">Repita su contraseña</label>
             </div>
             <input
-              style="margin-top: 10px;"
+              style="margin-top: 10px"
               type="password"
               name="u_repetircontraseña"
               id="repertirpassuser"
@@ -126,14 +155,43 @@
             class="btn btn-primary"
             id="btn-registrar"
             onclick="registrar()"
-            style="margin-left: 160px; margin-top: 10px;"
+            style="text-align: center; margin-top: 20px"
           >
             Registrar
           </button>
         </form>
       </div>
     </div>
-
+    <!-- Footer Start -->
+    <footer>
+      <div class="container-fluid bg-dark text-white-50 py-4">
+        <div class="container">
+          <div class="row g-5">
+            <label style="float: left" for="redes" class="text-white"
+              >Redes Sociales</label
+            >
+            <div style="margin-top: 12px" name="redes">
+              <a class="btn btn-outline-primary btn-square me-2" href="#"
+                ><img class="redes" src="./icons/facebook.png" alt=""
+              /></a>
+              <a class="btn btn-outline-primary btn-square me-2" href="#"
+                ><img class="redes" src="./icons/instagram.png" alt=""
+              /></a>
+              <a class="btn btn-outline-primary btn-square me-2" href="#"
+                ><img class="redes" src="./icons/email.png" alt=""
+              /></a>
+            </div>
+          </div>
+          <br />
+          <div style="text-align: center">
+            <p class="mb-md-0">
+              &copy; <a class="text-white" href="#">El Comilón</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
       integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"

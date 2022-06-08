@@ -1,0 +1,98 @@
+body {
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+	font-weight:300;
+	font-size: 12px;
+    background-color:rgb(170, 98, 98);
+    text-align: center;
+}
+header{
+    font-weight: bold;
+    font-size: 15px;
+}
+footer{
+    font-size: 15px;
+
+}
+.container2{
+    width: 800px;
+    text-align: center;
+    /* border-style: solid; */
+    /* border-color: red; */
+    display: inline-block;
+}
+.container1{
+	width: 500px;
+	/* height:400px; */
+    display: inline-block;
+}
+.img{
+    width: 300px;
+    height: 300px;
+}
+.img2{
+    width: 200px;
+    height: 200px;
+    margin-left: 0%;
+}
+.container_perfil{
+    border-radius: 10px;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 60px;
+    float: left;
+    /* border: 5px black solid; */
+    background-color: aliceblue;
+}
+.carrito{
+    background-color: aliceblue;
+    border-radius: 10px;
+    float: left;
+    margin-top: 100px;
+    margin-left: 60px;
+    /* border: 5px black solid; */
+}
+.menu{
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-bottom: 60px;
+    /* border: 5px black solid; */
+}
+.datos{
+    font-size: medium;
+    width: 400px;
+    height: 250px;
+    /* border: 5px red dashed; */
+    float: left;
+}
+.datos2{
+    width: 250px;
+    height: 250px;
+    margin-left: 30px;
+    margin-top: 10px;
+    /* border: 5px blue dashed; */
+    float: left;
+}
+.datos3{
+    height: 500px;
+    /* border: 5px blue dashed; */
+    background-color: yellowgreen;
+}
+.foto_perfil{
+    width: 200px;
+    height: 200px;
+    margin: 0;
+}
+.left_label{
+    float: left;
+    margin-top: 10px;  
+    margin-bottom: 10px; 
+    font-size: 15px;
+
+}
+.redes{
+    width: 30px;
+    height: 30px;
+
+}

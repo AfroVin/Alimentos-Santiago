@@ -25,7 +25,7 @@
       src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/additional-methods.min.js"
     ></script>
 
-    <title>Modificar Datos</title>
+    <title>Usuario</title>
   </head>
 
   <body>
@@ -62,92 +62,28 @@
         <form method="POST" id="formulario_usuario" action="#">
           <div class="form-group">
             <div class="left_label">
-              <label for="mod_nom">Ingrese nuevo nombre</label>
-            </div>
-            <input
-              style="margin-top: 10px"
-              type="text"
-              name="mod_nom"
-              id="mod_nom"
-              class="form-control required"
-              placeholder="Ingrese su nombre"
-            />
-          </div>
-          <div class="form-group">
-            <div class="left_label">
-              <label for="mod_ap">Ingrese nuevo apellido</label>
-            </div>
-            <input
-              style="margin-top: 10px"
-              type="text"
-              name="mod_ap"
-              id="mod_ap"
-              class="form-control required"
-              placeholder="Ingrese su apellido"
-            />
-          </div>
-          <div class="form-group">
-            <div class="left_label">
-              <label for="mod_email">Ingrese nuevo email</label>
+              <label for="emailuser">Ingrese su email</label>
             </div>
             <input
               style="margin-top: 10px"
               type="email"
-              name="mod_email"
-              id="mod_email"
+              name="u_email"
+              id="emailuser"
               class="form-control required"
               placeholder="Ingrese su email"
             />
           </div>
           <div class="form-group">
             <div class="left_label">
-              <label for="mod_di">Ingrese nueva dirección</label>
-            </div>
-            <input
-              style="margin-top: 10px"
-              type="text"
-              name="mod_di"
-              id="mod_di"
-              class="form-control required"
-              placeholder="Ingrese su dirección"
-            />
-          </div>
-          <div class="form-group">
-            <div class="left_label">
-              <label for="mod_fecha">Ingrese nueva fecha de nacimiento</label>
-            </div>
-            <input
-              style="margin-top: 10px"
-              type="date"
-              name="mod_fecha"
-              id="mod_fecha"
-              class="form-control required"
-            />
-          </div>
-          <div class="form-group">
-            <div class="left_label">
-              <label for="mod_con">Ingrese nueva contraseña</label>
+              <label for="passuser">Ingrese su contraseña</label>
             </div>
             <input
               style="margin-top: 10px"
               type="password"
-              name="mod_con"
-              id="mod_con"
+              name="u_contraseña"
+              id="passuser"
               class="form-control required"
               placeholder="Ingrese su contraseña"
-            />
-          </div>
-          <div class="form-group">
-            <div class="left_label">
-              <label for="mod_rcom">Repita la contraseña</label>
-            </div>
-            <input
-              style="margin-top: 10px"
-              type="password"
-              name="mod_rcom"
-              id="mod_rcom"
-              class="form-control required"
-              placeholder="Repita su contraseña"
             />
           </div>
           <button
@@ -157,7 +93,7 @@
             onclick="registrar()"
             style="text-align: center; margin-top: 20px"
           >
-            Registrar
+            Entrar
           </button>
         </form>
       </div>
@@ -166,8 +102,7 @@
     <footer>
       <div class="container-fluid bg-dark text-white-50 py-4">
         <div class="container">
-          <div class="row g-5">
-            <label style="float: left" for="redes" class="text-white"
+            <label for="redes" class="text-white"
               >Redes Sociales</label
             >
             <div style="margin-top: 12px" name="redes">
@@ -181,7 +116,6 @@
                 ><img class="redes" src="./icons/email.png" alt=""
               /></a>
             </div>
-          </div>
           <br />
           <div style="text-align: center">
             <p class="mb-md-0">
