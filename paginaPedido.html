@@ -10,14 +10,14 @@
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./css/registro.css" />
+    <link rel="stylesheet" href="{% static './css/registro.css'%}">
   </head>
 
   <body>
     <header>
       <div class="header1">
         <div>
-          <img class="img" src="./img/Alimentos Santiago.png" alt="Logo" />
+          <a href="{% url 'home' %}"><img src="{% static 'images/img/Alimentos Santiago.jpg'%}" alt="LOGO Elcomilon"></a>
         </div>
       </div>
       <ul
@@ -178,6 +178,7 @@
       integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
       crossorigin="anonymous"
     ></script>
-    <script src="../js/usuario.js"></script>
+
+    <script src="{% static 'js/usuario.js' %}"></script>
   </body>
 </html>

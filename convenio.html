@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="{% static 'css/estilo.css'%}">
     <!-- JQuery -->
    <!-- incorporamos las jquey y validadores -->
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -20,7 +20,7 @@
     <div class="header1">
         <div class="header">
             <div style="margin-left: 790px;">
-                <a href="index.html"><img class="img" src="img/Alimentos Santiago.jpg" alt="LOGO Elcomilon"></a>
+                <a href="{% url 'home' %}"><img src="{% static 'images/img/Alimentos Santiago.jpg'%}" alt="LOGO Elcomilon"></a>
             </div>
             <div style="margin-left: 790px ;">
             <h1>CONVENIO</h1>
@@ -56,6 +56,7 @@
 </div>
 </div>
 
-    <script src="../js/login.js"></script>
+
+    <script src="{% static 'js/login.js' %}"></script>
 </body>
 </html>
